@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    background-color: #004225;
+    color: White;
+    padding: 20px;
+    text-align: center;
+}
+#pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+
+}
+.pricing-plan {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    text-align: center;
+
+}
+.pricing-plan:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: whitesmoke;
+}
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #004225;
+}
+@media (max-width: 768px) {
+    #pricing {
+        flex-direction: column;
+    }
+}
